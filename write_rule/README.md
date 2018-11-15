@@ -234,9 +234,11 @@ __double underscores__
 ```
 ![Alt text](/path/to/img.jpg)
 ![Alt text](/path/to/img.jpg "Optional title")
-
+#![Alt text](./img/our_home.jpeg)
+#![Alt text](./img/bono.png)
 ```
 ![Alt text](./img/our_home.jpeg)
+![Alt text](./img/bono.png)
 
 사이즈 조절 기능은 없기 때문에 ```<img width="" height=""></img>```를 이용한다.
 
