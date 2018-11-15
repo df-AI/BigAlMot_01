@@ -5,6 +5,7 @@
   * [0. git](https://github.com/df-AI/BigAlMot_01/tree/master/write_rule#0-git)
   * [1. MarkDown](https://github.com/df-AI/BigAlMot_01/tree/master/write_rule#1-markdown)
     * [작성요령](./HowToMarkDown.md) 
+    * img 
   * [2. Source Code](https://github.com/df-AI/BigAlMot_01/tree/master/write_rule#2-source-code)
   * [3. Documents](https://github.com/df-AI/BigAlMot_01/tree/master/write_rule#3-Documents)
   * [4. Input Data](https://github.com/df-AI/BigAlMot_01/tree/master/write_rule#4-input-data)
