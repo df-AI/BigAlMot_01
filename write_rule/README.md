@@ -241,11 +241,11 @@ __double underscores__
 ![Alt text](./img/our_home.jpeg)
 ![Alt text](./img/bonobono.png)
 
-사이즈 조절 기능은 없기 때문에 ```<img width="" height=""></img>```를 이용한다.
+사이즈 조절옵션은 [여기참조](https://blog.yena.io/studynote/2017/11/23/Github-resize-image.html) 
 ```
-<img width="30" height="30">![Alt text](./img/our_home.jpeg)</img>
+![Alt text](./img/our_home.jpeg){: width="50" height="50"}
 ```
-<img width="1" height="1">![Alt text](./img/our_home.jpeg)</img>
+![Alt text](./img/our_home.jpeg){: width="50" height="50"}
 
 
 ****
