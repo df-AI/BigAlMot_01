@@ -5,19 +5,11 @@
 ```
 
 - [목 차](https://github.com/df-AI/BigAlMot_01#bigalmot_01)
+ 
   - [1. 세부계획](https://github.com/df-AI/BigAlMot_01#1-세부계획)
-    - 일 정
-    - 장 소
-    - 정 원
-    - 내 용
-    - 신청방법
-    - 참고사항
     
   - [2. 강의안](https://github.com/df-AI/BigAlMot_01#2-강의안)
-    - Session1
-    - Session2
-    - Session3
-    - Session4
+
 
 
 ## 1. 세부계획
