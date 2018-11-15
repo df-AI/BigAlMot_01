@@ -18,6 +18,7 @@
 git 또는 GitHub Desktop를 사용하는 pc에 설치가 선행되어야 합니다.
 ```
 - git 또는 [GitHub Desktop](https://desktop.github.com/)를 설치한다.
+  - GitHub Desktop 설치 및 간단한 사용법에 대해 예전에 작성한 것 첨부합니다.[(여기참조)](https://github.com/TAEHYOKIM/INGYEOMENTAL/blob/master/GitHub.pdf)
 
 
 ## 1. MarkDown
