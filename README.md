@@ -9,7 +9,15 @@
 
 ## 1. 교육내용
 
+- 세부계획
 ![session_table](./img/session_table.png)
+
+- 강의안
+  - [Session1(왕초보도 할 수 있는 데이터 전처리 & 시각화)](./Session1)
+  - [Session2(데이터 분석을 위한 클라우드 인프라 이해)](./Session2)
+  - [Session3(ML왕초보도 Python과 함께라면 괜찮아)](./Session3)
+  - [Session4(CNN의 이해)](./Session4)
+
 
 ## 2. 신청방법
 
@@ -19,3 +27,5 @@
 - 수강료 : 각 세션당 5,000원(간식비로 제공)
 - 정원 : 각 세션당 10명 이내(입급 선착순)
   - 인원 초과시 환불해 드림
+
+***
