@@ -54,9 +54,17 @@
       - 사용툴 : Jupyter Notebook
      
     - 목표
-      - 개인 PC에서 
+      - 개인 PC에서 Anaconda3.6 설치
+      - 지도학습과 비지도학습의 이해
+      - ML 활용사례를 scikit-learn 패키지 예제코드로 실습
     
   - [Session4(CNN의 이해)](./Session4)
-
+    - 진행방식 : 이론 + 실습
+      - 언어 : Python / Tensorflow
+      - 사용툴 : Jupyter Notebook
+      
+    - 목표
+      - CNN 실습에 필요한 라이브러리 설치
+      - CNN 개념 이해
 
 ***
