@@ -8,17 +8,12 @@
 
 
 ## 1. MarkDown
-> MarkDown이 생소하시거나 작성중 참고하실 분을 위해 요약본(HowToMarkDown.md)을 업로드 하였습니다.
+```MarkDown이 생소하시거나 작성중 참고하실 분을 위해 요약본(HowToMarkDown.md)을 업로드 하였습니다.```
 
-```
-d
-d
-d
-d
-d
-d
-d
-d
-```
 ## 2. Source Code
->
+```소스코드는 src폴더를 생성한 뒤 저장합니다```
+
+## 3. Documents
+```관련된 자료 및 참고한 것(논문, 블로그글 등)의 파일을 docs 폴더를 생성한 뒤 저장합니다```
+
+## 4. 
