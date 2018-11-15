@@ -1,16 +1,27 @@
 # write_rule
-> 강의노트 작성시 참고하시라고 만들었습니다.
+> 강의노트 작성시 참고하시가 바랍니다.
 
 * [write_rule](https://github.com/df-AI/BigAlMot_01/tree/master/write_rule#write_rule)
+  * [0. git](https://github.com/df-AI/BigAlMot_01/tree/master/write_rule#0-git)
   * [1. MarkDown](https://github.com/df-AI/BigAlMot_01/tree/master/write_rule#1-markdown)
     * [작성요령](./HowToMarkDown.md) 
   * [2. Source Code](https://github.com/df-AI/BigAlMot_01/tree/master/write_rule#2-source-code)
+  * [3. Documents](https://github.com/df-AI/BigAlMot_01/tree/master/write_rule#3-Documents)
+  * [4. Input Data](https://github.com/df-AI/BigAlMot_01/tree/master/write_rule#4-input-data)
+  * [5. Output Data](https://github.com/df-AI/BigAlMot_01/tree/master/write_rule#5-output-data)
 
+
+
+## 0. git
+```
+git 또는 [GitHub Desktop](https://desktop.github.com/)를 사용하는 pc에 설치가 선행되어야 합니다.
+```
 
 ## 1. MarkDown
 ```
 MarkDown이 생소하시거나 작성중 참고하실 분을 위해 요약본(HowToMarkDown.md)을 업로드 하였습니다.
 ```
+- [작성요령](./HowToMarkDown.md) 
 
 ## 2. Source Code
 ```
