@@ -1,4 +1,4 @@
-# wirte_rule
+# write_rule
 > 강의노트 작성시 참고하시라고 만들었습니다.
 
 * [write_rule](.)
