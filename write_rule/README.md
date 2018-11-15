@@ -22,6 +22,7 @@ git 또는 [GitHub Desktop](https://desktop.github.com/)를 사용하는 pc에 �
 MarkDown이 생소하시거나 작성중 참고하실 분을 위해 요약본(HowToMarkDown.md)을 업로드 하였습니다.
 ```
 - [작성요령](./HowToMarkDown.md) 
+- img 폴더에는 강의안에 첨부할 사진파일을 저장하는 곳 입니다.
 
 ## 2. Source Code
 ```
