@@ -241,14 +241,11 @@ __double underscores__
 ![Alt text](./img/our_home.jpeg)
 ![Alt text](./img/bonobono.png)
 
-사이즈 조절 및 위치 조정에 관해서 자세한 내용은 [여기참조](https://blog.yena.io/studynote/2017/11/23/Github-resize-image.html) 
+사이즈 조절에 관해서 자세한 내용은 [여기참조](https://blog.yena.io/studynote/2017/11/23/Github-resize-image.html) 
 ```
 <img src="./img/our_home.jpeg" width="300" height="300">
-<center><img src="./img/our_home.jpeg" width="300" height="300"></center>
 ```
 <img src="./img/our_home.jpeg" width="300" height="300">
-<center><img src="./img/our_home.jpeg" width="300" height="300"></center>
-
 
 ****
 # 3. 마크다운 사용기
