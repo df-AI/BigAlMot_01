@@ -1,7 +1,7 @@
 # Session3. ML왕초보도 Python과 함께라면 괜찮아
 
 ```
-Session3에서는 Python3.6 을 활용한 Machine Learning(이하 ML) 초급과정입니다.
+Session3에서는 Python3.6을 활용한 Machine Learning(이하 ML) 초급과정입니다.
 강의는 사례별 적용된 ML이론(알고리즘)를 배우고, 실습코드를 통해서 이해하는 방식으로 진행 되겠습니다.
 강의에 앞서 강의를 위한 환경을 구축을 먼저 해보시기 바랍니다.(아래참조)
 ```
