@@ -18,11 +18,11 @@ Session3에서는 Python3.6을 활용한 Machine Learning(이하 ML)을 배우�
 
 ## Jupyter Notebook 접속
 
-- 터미널에서 접속
+- 방법1. 터미널에서 접속
   - 터미널창을 열고 아래와 같이 입력한다.
 ```bash
 $ Jupyter Notebook
 ```
 
-- Anaconda Nvigator [<img src="https://cdn-images-1.medium.com/max/1600/1*rW03Wtue71AKfxnx6XN_iQ.png" width="20" height="20">]로 접속
+- 방법2. Anaconda Nvigator [<img src="https://cdn-images-1.medium.com/max/1600/1*rW03Wtue71AKfxnx6XN_iQ.png" width="20" height="20">]로 접속
   - Jupyter Notebook [<img src="https://i2.wp.com/chadwickspencer.com/myblog/wp-content/uploads/2018/04/Jypyter.png?w=346" width="23" height="23">]로 접속
