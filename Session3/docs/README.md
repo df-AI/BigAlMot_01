@@ -17,6 +17,7 @@
   - https://jakevdp.github.io/PythonDataScienceHandbook/
 
 ## Introduction to Machine Learning with Python
+> Python에서 제공하는 Scikit-Learn 패키지를 활용한 실무위주의 책
 
 - GitHub
   - https://github.com/amueller/introduction_to_ml_with_python
@@ -25,6 +26,7 @@
   - http://amueller.github.io/
 
 ## Hands on Machine Learning with Scikit-Learn and TensorFlow
+> ML, DL까지 다루면서도 각 알고리즘 정의에 대한 개념을 확실하게 잡아주는 책
 
 - GitHub
   - https://github.com/ageron/handson-ml
