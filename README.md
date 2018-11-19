@@ -63,6 +63,6 @@
       
     - 목표
       - CNN 개념 이해
-      - Best CNN 개념 
+      - Best CNN 개념 이해
 
 ***
