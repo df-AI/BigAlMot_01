@@ -45,8 +45,8 @@
     - 진행방식 : 이론
     
     - 목표
-      - lass / paas / saas / faas / daas 개념을 이해
-      - 데이터 분석 업계의 최신기술 및 트렌드 이해
+      - XaaS 개념을 이해
+      - Data capitalization 개념 이해
       
   - [Session3(ML왕초보도 Python과 함께라면 괜찮아)](./Session3)
     - 진행방식 : 이론 + 실습
