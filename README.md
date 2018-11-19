@@ -60,11 +60,9 @@
     
   - [Session4(CNN의 이해)](./Session4)
     - 진행방식 : 이론
-      - 언어 : Python / Tensorflow
-      - 사용툴 : Jupyter Notebook
       
     - 목표
-      - CNN 실습에 필요한 라이브러리 설치
       - CNN 개념 이해
+      - Best CNN 개념 
 
 ***
