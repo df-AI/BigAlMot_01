@@ -32,7 +32,7 @@
 
 ## 2. 강의안
   - [Session1(왕초보도 할 수 있는 데이터 전처리 & 시각화)](./Session1)
-    - 진행방식 : 실습위주
+    - 진행방식 : 실습
       - 언어 : R
       - 사용툴 : RStudio
       
@@ -42,7 +42,7 @@
       - 데이터 전처리 이후 시각화
     
   - [Session2(데이터 분석을 위한 클라우드 인프라 이해)](./Session2)
-    - 진행방식 : 이론위주
+    - 진행방식 : 이론
     
     - 목표
       - lass / paas / saas / faas / daas 개념을 이해
@@ -59,7 +59,7 @@
       - ML 활용사례를 scikit-learn 패키지 예제코드로 실습
     
   - [Session4(CNN의 이해)](./Session4)
-    - 진행방식 : 이론 + 실습
+    - 진행방식 : 이론
       - 언어 : Python / Tensorflow
       - 사용툴 : Jupyter Notebook
       
