@@ -21,7 +21,9 @@
 > Python에서 제공하는 Scikit-Learn 패키지를 활용한 실무위주의 책
 
 - GitHub
-  - https://github.com/amueller/introduction_to_ml_with_python
+  - https://github.com/amueller/introduction_to_ml_with_python(원본)
+  
+  - https://github.com/rickiepark/introduction_to_ml_with_python(번역)
   
 - 저자 블로그
   - http://amueller.github.io/
