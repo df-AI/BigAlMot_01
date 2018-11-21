@@ -64,9 +64,9 @@ ggplot(data = mpg) +
 ?geom_point
 
 # SUV에는 표시가 되지 않는다. 어떻게 표현할 것인가? shape 모양은 무엇인가? 
-# Show a list of available shapes
+# 
 df_shapes <- data.frame(shape = 0:24)
-ggplot(df_shapes, aes(0, 0, shape = shape)) +
+ggplot(df_shapes, aes(x = 0, y = 0, shape = shape)) +
   geom_point(aes(shape = shape), size = 5, fill = 'red') +
   scale_shape_identity() +
   facet_wrap(~shape) +
@@ -89,3 +89,20 @@ ggplot(data = mpg) +
 ggplot(data = mpg)
 + geom_point(mapping = aes(x = displ, y = hwy))
 # Error: Cannot use `+.gg()` with a single argument. Did you accidentally put + on a new line?
+
+# Option. 현재 사용중인 메모리 체크 함수
+myMemory <- function(x) {
+  format(object.size(get(x)), units = "auto")
+}
+sort(sapply(ls(), myMemory))
+
+# 4. Facets <- 범주형 변수별로 그래프를 그릴 때 사용
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy)) + 
+  facet_wrap(~ class, ncol = 2) # nrow = 2
+
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy)) + 
+  facet_grid(drv ~ cyl)
+
+     
