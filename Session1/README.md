@@ -5,13 +5,13 @@ R로 하는 데이터 전처리 & 시각화입니다.
 R & RStudio를 처음 설치하는 것 부터 시작해서, 데이터 분석, 전처리 간단한 예제 중심으로 코드 설명 및 리뷰를 진행하였습니다. 
 ```
 
-- [목 차](https://github.com/df-AI/BigAlMot_01/Session1)
+- [목 차](./Session1)
  
-  - [1. 참고자료](https://github.com/df-AI/BigAlMot_01/Session1/docs)
+  - [1. 참고자료](./Session1/docs)
 
-  - [2. 소스코드](https://github.com/df-AI/BigAlMot_01/Session1/src)
+  - [2. 소스코드](./Session1/src)
   
-  - [3. 연습문제](https://github.com/df-AI/BigAlMot_01/Session1/practice)
+  - [3. 연습문제](./Session1/practice)
 
 
 ## 1. 세부계획
@@ -22,7 +22,11 @@ R & RStudio를 처음 설치하는 것 부터 시작해서, 데이터 분석, �
 
 - 참 석 인 원 : 
 
-- 내 용
-![session_table](./img/session_table.png)
+- 교 육 내 용 : 
+    - 1. 개인PC에서 R & RStudio 설치
+       - R 설치 (https://www.r-project.org/)
+       - RStudio 설치 홈페이지 (https://www.rstudio.com/)
+    - 2. ggplot2 (소스코드 참조)
+       - 
 
 ***
