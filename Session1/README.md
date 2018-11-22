@@ -42,6 +42,4 @@ R & RStudio를 처음 설치하는 것 부터 시작해서, 데이터 분석, �
        - 열 선택 함수 (select)
        - 변환 함수 (mutate)
        - 요약 함수 (summarise)
-        
-
 ***
