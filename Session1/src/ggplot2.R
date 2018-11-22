@@ -103,7 +103,7 @@ ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy)) + 
   facet_grid(drv ~ cyl)
 
-# 5. Geom = Geometrical Object
+# 5. ㅅ = Geometrical Object
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy))
 
