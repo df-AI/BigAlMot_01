@@ -62,18 +62,16 @@ ggplot(data = mpg) +
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy, shape = class))
 ?geom_point
-
 # SUV에는 표시가 되지 않는다. 어떻게 표현할 것인가? shape 모양은 무엇인가? 
-# 
+# stackoverflow를 활용하자
+# https://stackoverflow.com/questions/16813278/cycling-through-point-shapes-when-more-than-6-factor-levels
+
 df_shapes <- data.frame(shape = 0:24)
 ggplot(df_shapes, aes(x = 0, y = 0, shape = shape)) +
   geom_point(aes(shape = shape), size = 5, fill = 'red') +
   scale_shape_identity() +
   facet_wrap(~shape) +
   theme_void()
-
-# stackoverflow를 활용하자
-# https://stackoverflow.com/questions/16813278/cycling-through-point-shapes-when-more-than-6-factor-levels
 
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy, shape = class)) + 
@@ -105,4 +103,102 @@ ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy)) + 
   facet_grid(drv ~ cyl)
 
-     
+# 5. Geom = Geometrical Object
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy))
+
+ggplot(data = mpg) + 
+  geom_smooth(mapping = aes(x = displ, y = hwy, linetype = drv))
+
+# ggplot2 30개 이상의 geom 지원하고 있음
+# 구체적인 설명서는 https://ggplot2.tidyverse.org/reference/
+
+# 6. 변수의 종류에 따른 시각화 기법
+# (1) 수량형 변수 1개일 때
+install.packages("gapminder")
+library(gapminder)
+data("gapminder")
+help("gapminder")
+
+# 데이터 셋 구조 파악
+str(gapminder)
+ggplot(gapminder, aes(x = gdpPercap)) + 
+  geom_histogram(bins = 30) # + 
+  # scale_x_log10()
+
+ggplot(gapminder, aes(x = gdpPercap)) + 
+  geom_freqpoly(bins = 30) # + 
+# scale_x_log10()
+
+ggplot(gapminder, aes(x = gdpPercap)) + 
+  geom_density(bins = 30) # + 
+# scale_x_log10()
+ggplot(gapminder, aes(x = gdpPercap)) + 
+  geom_histogram(aes(y = ..density..), fill = "white", colour = "black", bins = 30) + 
+  geom_density(bins = 30, fill = "red", alpha = .2) + 
+  scale_x_log10()
+
+# (2) 범주형 변수 1개일 때
+data("diamonds")
+help("diamonds")
+ggplot(diamonds, aes(x = cut)) + 
+  geom_bar()
+
+# 각각의 개수를 알고 싶을 때
+table(diamonds$cut)
+
+# 각각의 비율을 알고 싶을 때
+round(prop.table(table(diamonds$cut)), 2)
+
+# (3) 수량형 변수가 2개일 때 + 산점도 (여러개의 중복된 관측치가 있을 때)
+ggplot(diamonds, aes(x = carat, y = price)) + 
+  geom_point()
+
+ggplot(mpg, aes(x = displ, y = hwy)) + 
+  geom_point()
+
+ggplot(mpg, aes(x = displ, y = hwy)) + 
+  geom_jitter()
+
+# (4) 수량형 변수와 범주형 변수
+ggplot(mpg, aes(x = class, y = hwy)) + 
+  geom_boxplot()
+
+library(dplyr)
+ggplot(mpg %>% mutate(class = reorder(class, hwy, median)), aes(x = class, y = hwy)) + 
+  geom_boxplot()
+
+ggplot(mpg %>% 
+         mutate(class = reorder(class, -hwy, median)), aes(x = class, y = hwy)) + 
+  geom_boxplot()
+
+# (5) 두 범주형 변수 -- 거의 없음
+# Mosaic Plot Example
+library(vcd)
+help("HairEyeColor")
+str(HairEyeColor)
+mosaic(Titanic, shade=TRUE, legend=TRUE)
+
+# 자료 더 보기
+# http://www.cookbook-r.com/
+
+# 공통 시각화 할 때 유의점
+# (1) 독자가 이해하기 쉽게 만들자 (R + PowerPoint)
+# (2) R을 쓰는 목적은 복잡한 데이터를 빠른 시간에 쉽게 이해하기 위한 것
+# (3) R 시각화 시, 그래프를 더 꾸미기 위해서면 Theme 사용법을 익혀야 한다. 
+# (4) ggplot2외 다른 동적인 그래프 plotly를 찾고 활용하자. 
+# 예시 (https://plot.ly/r/line-charts/)
+install.packages("plotly")
+library(plotly)
+
+trace_0 <- rnorm(1000, mean = 5)
+trace_1 <- rnorm(1000, mean = 0)
+trace_2 <- rnorm(1000, mean = -5)
+x <- c(1:1000)
+
+data <- data.frame(x, trace_0, trace_1, trace_2)
+
+plot_ly(data, x = ~x, y = ~trace_0, name = 'trace 0', type = 'scatter', mode = 'lines') %>%
+  add_trace(y = ~trace_1, name = 'trace 1', mode = 'lines+markers') %>%
+  add_trace(y = ~trace_2, name = 'trace 2', mode = 'markers')
+
