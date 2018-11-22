@@ -24,22 +24,40 @@ R & RStudio를 처음 설치하는 것 부터 시작해서, 데이터 분석, �
 
 - 교 육 내 용 : 
     - 1. 개인PC에서 R & RStudio 설치
+
        - R 설치 (https://www.r-project.org/)
+
        - RStudio 설치 홈페이지 (https://www.rstudio.com/)
+
        - [강의안 참조](https://github.com/df-AI/BigAlMot_01/blob/master/Session1/docs/lecture_1.pptx) 
-    - 2. ggplot2 [소스코드 참조](https://github.com/df-AI/BigAlMot_01/blob/master/Session1/src/ggplot2.R)
+
+    - 2. ggplot2 [(소스코드 참조)](https://github.com/df-AI/BigAlMot_01/blob/master/Session1/src/ggplot2.R)
+
        - ggplot2 기본 템플릿
+
        - Aesthetic Mappings
+
        - 에러와 친숙해지기
+
        - Facets
+
        - Geom
+
        - 변수의 종류에 따른 시각화 기법
+
        - plotly 소개
-    - 3. dplyr [소스코드 참조](https://github.com/df-AI/BigAlMot_01/blob/master/Session1/src/dplyr.R)
+
+    - 3. dplyr [(소스코드 참조)](https://github.com/df-AI/BigAlMot_01/blob/master/Session1/src/dplyr.R)
+
        - [dplyr vs sql](https://github.com/df-AI/BigAlMot_01/blob/master/Session1/docs/dplyr%20vs%20SQL.pptx)
+
        - 행 선택 함수 (filter)
+
        - 정렬 함수 (arrange)
+
        - 열 선택 함수 (select)
+
        - 변환 함수 (mutate)
+
        - 요약 함수 (summarise)
 ***
