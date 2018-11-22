@@ -1,6 +1,8 @@
 ---
 title: "실습예제"
-output: learnr::tutorial
+output: 
+    html_document:
+    keep_md: true
 runtime: shiny_prerendered
 ---
 
