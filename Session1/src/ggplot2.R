@@ -26,19 +26,22 @@ ggplot(mtcars, aes(x = `car name`, y = mpg_z, label = mpg_z)) +
 
 # step 3.2 Z-score 표시하기
 ggplot(mtcars, aes(x = `car name`, y = mpg_z, label = mpg_z)) + 
-  geom_point(stat = "identity", aes(col = mpg_type), size = 6) + 
+  geom_point(stat = "identity", aes(col = mpg_type), size = 10) + 
   scale_color_manual(name = "Mileage", 
                     labels = c("Above Average", "Below Average"), 
                     values = c("above" = "#00ba38", "below" = "#f8766d")) + 
-  geom_text(color = "white", size = 2) + 
+  geom_text(color = "white", size = 5) + 
   labs(subtitle = "Normalised Mileage from 'mtcars'", 
        title = "Diverging Bars") + 
   coord_flip()
 
 # Let's begin
 data(mpg)
-help(mpg)
+## help(mpg)
 str(mpg)
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy))
+
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy))
 
@@ -47,6 +50,9 @@ ggplot(data = mpg) +
   # <GEOM_FUNCTION>(mapping = aes(<MAPPINGS>))
 
 # 2. Aesthetic Mappings
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy, color = class))
+
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy, color = class), size = 5)
 
@@ -61,6 +67,11 @@ ggplot(data = mpg) +
 
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy, shape = class))
+
+ggplot(data=mpg, aes(x=displ, y=hwy, shape=class))+
+  geom_point() +
+  scale_shape_manual(values=seq(0,15))
+
 ?geom_point
 # SUV에는 표시가 되지 않는다. 어떻게 표현할 것인가? shape 모양은 무엇인가? 
 # stackoverflow를 활용하자
@@ -81,7 +92,9 @@ ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy), color = "blue")
 
 ggplot(data = mpg) + 
-  geom_point(mapping = aes(x = displ, y = hwy, colour = displ < 3))
+  geom_point(mapping = aes(x = displ, 
+                           y = hwy, 
+                           colour = displ > 4))
 
 # 3. 에러와 친숙해지기
 ggplot(data = mpg)
@@ -103,7 +116,7 @@ ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy)) + 
   facet_grid(drv ~ cyl)
 
-# 5. ㅅ = Geometrical Object
+# 5. geom = Geometrical Object
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy))
 
@@ -123,8 +136,8 @@ help("gapminder")
 # 데이터 셋 구조 파악
 str(gapminder)
 ggplot(gapminder, aes(x = gdpPercap)) + 
-  geom_histogram(bins = 30) # + 
-  # scale_x_log10()
+  geom_histogram(bins = 30) + 
+  scale_x_log10()
 
 ggplot(gapminder, aes(x = gdpPercap)) + 
   geom_freqpoly(bins = 30) # + 
@@ -133,6 +146,7 @@ ggplot(gapminder, aes(x = gdpPercap)) +
 ggplot(gapminder, aes(x = gdpPercap)) + 
   geom_density(bins = 30) # + 
 # scale_x_log10()
+
 ggplot(gapminder, aes(x = gdpPercap)) + 
   geom_histogram(aes(y = ..density..), fill = "white", colour = "black", bins = 30) + 
   geom_density(bins = 30, fill = "red", alpha = .2) + 
@@ -141,6 +155,7 @@ ggplot(gapminder, aes(x = gdpPercap)) +
 # (2) 범주형 변수 1개일 때
 data("diamonds")
 help("diamonds")
+str(diamonds)
 ggplot(diamonds, aes(x = cut)) + 
   geom_bar()
 
