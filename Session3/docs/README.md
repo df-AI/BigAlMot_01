@@ -33,7 +33,8 @@
 > ML, DL까지 다루면서도 각 알고리즘 정의에 대한 개념을 확실하게 잡아주는 책
 
 - GitHub
-  - https://github.com/ageron/handson-ml
+  - https://github.com/ageron/handson-ml (원본)
+  - https://github.com/rickiepark/handsom-ml (번역)
  
 - PDF
   - http://index-of.es/Varios-2/Hands%20on%20Machine%20Learning%20with%20Scikit%20Learn%20and%20Tensorflow.pdf
