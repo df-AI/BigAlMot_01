@@ -10,8 +10,10 @@
 - GitHub
   - https://github.com/jakevdp/PythonDataScienceHandbook
   
+  
 - PDF
   - https://tanthiamhuat.files.wordpress.com/2018/04/pythondatasciencehandbook.pdf
+  
   
 - Web Book
   - https://jakevdp.github.io/PythonDataScienceHandbook/
@@ -24,6 +26,7 @@
   - https://github.com/amueller/introduction_to_ml_with_python (원본)
   - https://github.com/rickiepark/introduction_to_ml_with_python (번역)
   
+  
 - 저자 블로그
   - http://amueller.github.io/
 
@@ -34,6 +37,7 @@
 - GitHub
   - https://github.com/ageron/handson-ml (원본)
   - https://github.com/rickiepark/handson-ml (번역)
+ 
  
 - PDF
   - http://index-of.es/Varios-2/Hands%20on%20Machine%20Learning%20with%20Scikit%20Learn%20and%20Tensorflow.pdf
