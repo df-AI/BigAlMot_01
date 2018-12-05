@@ -22,7 +22,6 @@
 
 - GitHub
   - https://github.com/amueller/introduction_to_ml_with_python (원본)
-  
   - https://github.com/rickiepark/introduction_to_ml_with_python (번역)
   
 - 저자 블로그
