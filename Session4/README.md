@@ -1,6 +1,6 @@
 # Session4 Watch Live AI-CNN Go
 
-code and doc is saved here
+code and doc is saved here.
 Code is for image classifier using tensorflow.
 http://solarisailab.com/archives/2325
 
